@@ -21,6 +21,6 @@ System Requirements
 Getting Started
 
     Clone the project repository
-    Run the application with your IDE of choice or by running dotnet run --project ./src/Api/Api.csproj in the project root directory in a terminal.
+    Run the application with your IDE of choice or by running `dotnet run --project ./src/Api/Api.csproj` in the project root directory in a terminal.
     Implement the required endpoints. Basic scaffolding for them already exists in the <project_root>/src/Api/Endpoints/Url directory.
     Test your implementation using a web browser or a tool like curl

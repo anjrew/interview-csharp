@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using UrlShortenerService.Domain.Entities;
 
 namespace UrlShortenerService.Application.Common.Interfaces;
 

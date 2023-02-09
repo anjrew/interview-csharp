@@ -23,7 +23,7 @@ public static class ConfigureServices
         _ = services.AddAuthorization();
         _ = services.AddFastEndpoints();
 
-        // Customise default API behaviour
+        // Customize default API behavior
         _ = services.Configure<ApiBehaviorOptions>(options =>
                 options.SuppressModelStateInvalidFilter = true);
 

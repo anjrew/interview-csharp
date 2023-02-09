@@ -12,6 +12,7 @@ public class CreateShortUrlSummary : Summary<CreateShortUrlEndpoint>
         Summary = "Create short url from provided url";
         Description =
             "This endpoint will create a short url from provided original url.";
+        Response(200, "Sucessfully return short version of provided URL.");
         Response(500, "Internal server error.");
     }
 }
