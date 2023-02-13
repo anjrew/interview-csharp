@@ -19,6 +19,24 @@
         }
       },
       {
+        "name": ".NET Core Test",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/Application.tests/bin/Debug/net7.0/Application.tests.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/Application.tests",
+        "stopAtEntry": false,
+        "requireExactSource": false,
+        "serverReadyAction": {
+          "action": "openExternally",
+          "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+        },
+        "env": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      },
+      {
         "name": ".NET Core Attach",
         "type": "coreclr",
         "request": "attach"
